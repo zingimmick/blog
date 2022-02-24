@@ -18,7 +18,7 @@ export default class Comments extends Component {
       scriptEl.setAttribute("data-reactions-enabled","1");
       scriptEl.setAttribute("data-emit-metadata","0");
       scriptEl.setAttribute("data-input-position","bottom");
-      scriptEl.setAttribute("data-theme","preferred_color_scheme");
+      scriptEl.setAttribute("data-theme","light");
       scriptEl.setAttribute("data-lang","zh-CN");
       this.commentBox.current.appendChild(scriptEl);
   }
