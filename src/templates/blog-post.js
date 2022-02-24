@@ -34,6 +34,7 @@ const BlogPostTemplate = ({ data, location }) => {
           <Bio />
         </footer>
       </article>
+      <Comments/>
       <nav className="blog-post-nav">
         <ul
           style={{
