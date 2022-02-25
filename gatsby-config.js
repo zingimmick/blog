@@ -6,7 +6,7 @@ module.exports = {
       summary: `who lives and works in Shanghai building useful things.`,
     },
     description: `Zing's Blog.`,
-    siteUrl: `https://zingimmick.com/`,
+    siteUrl: `https://blog.zingimmick.com/`,
     social: {
       twitter: `zingimmick`,
     },
