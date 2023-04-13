@@ -31,3 +31,7 @@ SELECT 'David_' LIKE 'David\_'; # 1
 ```mysql
 SELECT 'David_' LIKE 'David|_' ESCAPE '|'; # 1
 ```
+
+> 更新于`2023-04-13 21:47:50`
+
+部分数据库（如`SQLite`、`PostgreSQL`、`SQL Server`）不支持默认转义字符，必须使用`ESCAPE`子句指定转义字符
