@@ -1,7 +1,7 @@
 ---
 title: SQL LIKE 如何查询包含特殊字符的字符串
 date: "2023-04-12T13:37:50.260Z"
-description: "SQL LIKE 如何查询包含特殊字符，如(_, %, \)的字符串"
+description: "SQL LIKE 如何查询包含特殊字符，如(_, %, \\)的字符串"
 ---
 
 根据[MySQL手册](https://dev.mysql.com/doc/refman/8.0/en/string-comparison-functions.html#operator_like)：
